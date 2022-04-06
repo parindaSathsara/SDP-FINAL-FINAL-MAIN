@@ -1,0 +1,102 @@
+#addnewuser__Container {
+  margin-left: -10px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container-fluid .row .card__User {
+  background: #303442;
+
+  border-radius: 0;
+}
+
+.row {
+  margin-top: 0em;
+}
+
+#addnewuser__Container {
+  margin-top: 8em;
+}
+
+.container-fluid .row .card__User .card__Header {
+  margin-bottom: 10px;
+}
+
+.container-fluid
+  .row
+  .card__User
+  .card__Form
+  form
+  .div__Gender
+  label:first-child {
+  display: block;
+}
+
+.container-fluid .row .card__User .card__Form form .div__Gender #empGenderMale,
+.male,
+#empGenderFemale,
+.female {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.card__Heading {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #ff2430;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.error {
+  color: red !important;
+  outline: none !important;
+  font-size: 15px;
+  border-color: red;
+}
+
+.container-fluid
+  .row
+  .card__User
+  .card__Form
+  form
+  .form-group
+  .form-control:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+#saveEmployee {
+  width: 400px;
+  height: 50px;
+  border-radius: 8em;
+  margin-left: 1em;
+  font-size: 1.5em;
+  background-color: #222230;
+  margin-top: 3em;
+  outline: none;
+  border: 1px solid #ff1852;
+}
+
+#saveEmployee:hover {
+  background-color: #583170;
+  color: #fff;
+}
+
+.card__Form {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card__Form .form-label{
+  color: white;
+  font-size: 17px;
+}
+
+.form-control {
+  border-radius: 8em;
+}
+
+.form-select {
+  border-radius: 8em;
+}

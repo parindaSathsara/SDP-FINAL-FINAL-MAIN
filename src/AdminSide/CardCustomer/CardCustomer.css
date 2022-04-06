@@ -1,0 +1,43 @@
+.card {
+  border: none;
+  padding: 10px;
+  background: linear-gradient(to right, #6d63f7, #3fa3f9);
+  border-radius: 30px;
+}
+
+.card .cardCx__Header {
+  width: 100%;
+  padding: 10px;
+}
+
+.cardCx__Heading{
+  font-size: 22px !important;
+}
+
+.card .cardCx__Header .cardCx__Heading {
+  text-align: center !important;
+  color: #fff;
+}
+
+.card .cardCx__Count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card .cardCx__Count .cardCx__Num {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.card .cardCx__Count .fa-users {
+  font-size: 80px;
+  opacity: 0.5;
+  margin-top: 0px;
+  color: #fff;
+}
+
+.fas {
+  size: 5ex;
+}

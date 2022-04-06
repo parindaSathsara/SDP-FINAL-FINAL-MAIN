@@ -1,0 +1,79 @@
+nav {
+  width: 90%;
+  margin: 2% auto;
+  text-align: center;
+}
+nav ul {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+nav ul:hover {
+  color: white;
+}
+.toplist {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topListItem {
+  margin-right: 20px;
+  font-style: 18px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  
+}
+
+
+.aboutus{
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  margin-bottom: 100px;
+}
+
+.Home {
+  background: url(../images/LandingPagecopy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.row {
+  margin-top: 0em;
+}
+h1{
+  margin-left: 25px;
+  font-style: bold;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  
+}
+p{
+  margin-left:5%;
+  text-align: center;
+}
+.p3{
+  margin-left: 25%;
+  
+}
+.p4{
+  margin-left: 50%;
+}
+
+.about-us{
+  background-color: white;
+}
+
+#slider{
+  display: flex;
+}
+
+#footer{
+  background-color: antiquewhite;
+}
+

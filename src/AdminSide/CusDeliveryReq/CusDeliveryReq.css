@@ -1,0 +1,98 @@
+#updateuser__Container {
+  margin-left: -10px;
+}
+
+#updateuser__Container .row .col-md-12 .updateuser__Header {
+  margin: 20px 20px 20px -10px;
+}
+
+#updateuser__Container .row .col-md-12 .updateuser__Header .emp__Searching {
+  width: 300px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+#btnsearch {
+  border: 1px solid #ff1852;
+  width: 4em;
+  margin-left: 2em;
+}
+
+#searchicon {
+  color: white;
+}
+
+#updateuser__Container {
+  margin-top: 8em;
+}
+
+.updateuser__Heading {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #ff2430;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+#updateuser__Container .row .col-md-12 .updateuser__Table {
+  padding: 10px;
+  margin-left: -10px !important;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  border-radius: 2em;
+}
+
+.form-control {
+  border-radius: 0.5em;
+}
+
+#updateuser__Container .row .col-md-12 .updateuser__Table .table {
+  margin-top: 10px;
+  text-align: center;
+  overflow: auto;
+}
+
+#updateuser__Container
+  .row
+  .col-md-12
+  .updateuser__Table
+  .table
+  tbody
+  tr
+  td
+  .updateuser__Btn {
+  border-radius: 0;
+}
+
+#btn__UpdateClose,
+#btn__UpdateUpdate {
+  border-radius: 0;
+}
+
+#modal__Update {
+  padding: 20px;
+}
+
+.table-dark {
+  color: #ff2430;
+  background: #3b2a2a;
+}
+
+.add_request{
+  width: 12vw;
+  border-radius: 2em;
+  height: 5vh;
+  margin-left: 5em;
+  background-color: rgb(192, 147, 33);
+  
+}
+
+.searchmain{
+  display: flex;
+  margin-bottom: 2em;
+  
+}
+
+

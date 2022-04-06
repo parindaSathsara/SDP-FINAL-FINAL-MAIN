@@ -1,0 +1,38 @@
+.card__Rd {
+  border: none;
+  padding: 10px;
+  background: linear-gradient(to right, #ee215a, #f86017);
+}
+
+.card .cardRd__Header {
+  width: 100%;
+  padding: 10px;
+}
+
+.cardRd__Heading{
+  font-size: 22px !important;
+}
+
+.card .cardRd__Header .cardRd__Heading {
+  text-align: center !important;
+  color: #fff;
+}
+
+.card .cardRd__Count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card .cardRd__Count .cardRd__Num {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.card .cardRd__Count .fa-biking {
+  font-size: 80px;
+  opacity: 0.4;
+  margin-top: 0px;
+  color: #fff;
+}

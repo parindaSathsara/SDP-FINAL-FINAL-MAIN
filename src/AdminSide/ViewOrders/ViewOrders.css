@@ -1,0 +1,321 @@
+#viewallorder__Container {
+  margin-left: -10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#viewallorder__Container .row .col-md-12 .viewallorder__Header {
+  margin: 20px 20px 20px -10px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Header
+  .order__Searching {
+  width: 300px;
+  float: right;
+  margin-top: 10px;
+}
+
+.viewallorder__Heading {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #ff2430;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.MuiInputBase-input .MuiInput-input{
+    color: red !important;
+    font-weight: 500;
+}
+
+#viewallorder__Container {
+  margin-top: 8em;
+}
+
+#viewallorder__Container .row .col-md-12 .viewallorder__Table {
+  margin-left: -10px;
+  margin-right: auto;
+}
+
+#viewallorder__Container .row .col-md-12 .viewallorder__Table .table {
+  margin-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+  overflow: auto;
+  color: white;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  td
+  span.order__Track {
+  text-decoration: underline;
+  color: blue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus {
+  margin: 0 !important;
+  padding: 0;
+  /* background-color: #f7f7f7; */
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td
+  div.collapse.show {
+  margin: 10px !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span {
+  display: inline;
+  margin: 50px 10px 50px 10px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+/* Order Status Accepted Start */
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.accepted {
+  background-color: #0097ff;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-size: 20px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.accepted
+  i {
+  font-size: 50px;
+  vertical-align: middle;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+
+/* Order Status Accepted End */
+
+/* Order Status insortingcenter Start */
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.insortingcenter {
+  background-color: #0097ff;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-size: 20px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.insortingcenter
+  i {
+  font-size: 50px;
+  vertical-align: middle;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+
+/* Order Status insortingcenter End */
+
+/* Order Status intransist Start */
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.intransist {
+  background-color: #0097ff;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-size: 20px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.intransist
+  i {
+  font-size: 50px;
+  vertical-align: middle;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+
+/* Order Status intransist End */
+
+/* Order Status arrivedatwarehouse Start */
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.arrivedatwarehouse {
+  background-color: #0097ff;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-size: 20px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.arrivedatwarehouse
+  i {
+  font-size: 50px;
+  vertical-align: middle;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+
+/* Order Status arrivedatwarehouse End */
+
+/* Order Status delivered Start */
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.delivered {
+  background-color: #0097ff;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  font-size: 20px;
+}
+
+#viewallorder__Container
+  .row
+  .col-md-12
+  .viewallorder__Table
+  .table
+  tbody
+  tr
+  td.order_Statsus
+  #rowCollapse
+  span.delivered
+  i {
+  font-size: 50px;
+  vertical-align: middle;
+  opacity: 0.2;
+  margin-left: 20px;
+}
+
+/* Order Status delivered End */
+
+.order__Status {
+  color: green;
+  font-weight: bolder;
+}
+
+.order__Status1 {
+  color: orange;
+  font-weight: bolder;
+}
+
+.order__Status2 {
+  color: red;
+  font-weight: bolder;
+}
+
+.MuiInputBase-input {
+
+  color: #242424 !important;
+  font-size: 17px !important;
+}

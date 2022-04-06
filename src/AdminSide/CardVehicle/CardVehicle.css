@@ -1,0 +1,45 @@
+.card__Vh {
+  border: none;
+  padding: 10px;
+  background: linear-gradient(to right, #b24298, #ef3878);
+}
+
+.card .cardVh__Header {
+  width: 100%;
+  padding: 10px;
+}
+
+.card .cardVh__Header .cardVh__Heading {
+  text-align: center !important;
+  color: #fff;
+}
+
+.cardVh__Heading{
+  font-size: 22px !important;
+}
+
+
+.card .cardVh__Count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card .cardVh__Count .cardVh__Num {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.card .cardVh__Count .bi-bicycle {
+  font-size: 100px;
+  opacity: 0.1;
+  margin-top: -30px;
+}
+
+.card .cardVh__Count .fa-truck-moving {
+  font-size: 80px;
+  opacity: 0.4;
+  margin-top: 0px;
+  color: #fff;
+}

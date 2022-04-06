@@ -1,0 +1,14 @@
+.containerbox {
+    background-color: #170f24;
+    border-radius: 25px;
+    box-shadow: 2px 4px 10px 1px #00102e2f;
+    padding: 30px;
+    height: auto;
+  }
+  
+  .containerbox-title h5 {
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  

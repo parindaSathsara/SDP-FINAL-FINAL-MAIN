@@ -1,0 +1,142 @@
+.bgcontainerlogin {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #1c1f2b, #13151d);
+}
+
+.cardcontent {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 0px !important;
+  background-color: white !important;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  width: 110vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#cardContent {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255)) !important;
+  padding: 0px !important;
+}
+
+.loginBtn{
+  font-weight: 500 !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  margin-top: 5px !important;
+}
+
+.img-left-login {
+  width: 50%;
+
+  background-size: cover;
+}
+
+.admlogin{
+  width: 50%;
+  background: url('../images/adminlog.png') center;
+}
+
+.clbody {
+  padding: 2rem;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.title {
+  margin-bottom: 3rem;
+  font-size: 22px;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input input {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: none;
+  border: 1px solid #00000020;
+  border-radius: 50px;
+  outline: none;
+  background: transparent;
+}
+
+.register-link{
+  color: #FF0066;
+}
+.register-link:hover{
+  color: #c70050;
+}
+
+.form-input span {
+  position: absolute;
+  top: 10px;
+  padding-left: 15px;
+  color: #FF0066;
+}
+
+.form-input input::placeholder {
+  color: #454b69;
+  padding-left: 0px;
+}
+
+.form-input input:focus, .form-input input:valid {
+  border: 2px solid #FF0066;
+  transition: 0.5s;
+}
+
+.form-input input:focus::placeholder {
+  color: #454b69;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #FF0066 !important;
+  border: 0px;
+}
+
+.form-box button[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: #FF0066 !important;
+  color: #fff;
+  font-size: 90%;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  transition: 0.5s;
+  padding: 12px;
+}
+
+.form-box button[type="submit"]:hover {
+  background: #e4005b !important;
+}
+
+.clbody {
+  background-color: white;
+}
+
+.cardcontent {
+  background-color: white !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cardcontent {
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    width: 90%;
+  }
+}
